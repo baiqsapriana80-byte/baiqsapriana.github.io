@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Sembalun - Surga di Kaki Rinjani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+        .hero-parallax {
+            background: linear-gradient(rgba(114, 182, 83, 0.5), rgba(0,0,0,0.3)), 
+                        url('https://images.unsplash.com/photo-1596395123910-143003295c52?q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Efek Parallax */
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-lg border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-green-800 tracking-tight">SEMBALUN<span class="text-orange-500">.</span></div>
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-widest text-gray-600">
+                <a href="#beranda" class="hover:text-green-600 transition">Beranda</a>
+                <a href="#destinasi" class="hover:text-green-600 transition">Destinasi</a>
+                <a href="#harga" class="hover:text-green-600 transition">Harga</a>
+                <a href="#booking" class="hover:text-green-600 transition">Booking</a>
+            </div>
+            <a href="#booking" class="bg-green-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-green-700 transition shadow-lg shadow-green-200">Pesan Sekarang</a>
+        </div>
+    </nav>
+
+    <section id="beranda" class="hero-parallax h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <span class="inline-block px-4 py-1 border border-orange-400 text-orange-400 rounded-full text-xs font-bold uppercase tracking-[0.3em] mb-6">Explore East Lombok</span>
+            <h1 class="text-5xl md:text-8xl font-extrabold mb-6 leading-tight drop-shadow-2xl">Sembalun Adventure</h1>
+            <p class="text-lg md:text-2xl mb-10 text-gray-100 max-w-2xl mx-auto font-light">Jelajahi keindahan desa tertinggi di Lombok dengan pemandangan petak sawah yang ikonik dan kemegahan Gunung Rinjani.</p>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="#destinasi" class="bg-white text-green-900 px-10 py-4 rounded-xl font-bold hover:bg-gray-100 transition shadow-xl">Lihat Destinasi</a>
+                <a href="https://wa.me/6283166546119" class="bg-orange-500 text-white px-10 py-4 rounded-xl font-bold hover:bg-orange-600 transition shadow-xl border-b-4 border-orange-700 active:border-b-0">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinasi" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+            <div>
+                <h2 class="text-4xl font-extrabold text-gray-900 mb-2">Destinasi Pilihan</h2>
+                <p class="text-gray-500">Tempat terbaik untuk mengabadikan momen di Sembalun.</p>
+            </div>
+            <div class="h-1 flex-grow bg-gray-100 ml-10 hidden md:block mb-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="group relative overflow-hidden rounded-3xl h-[450px] shadow-2xl">
+                <img src="c:\Users\HP\Downloads\gunung_rinjani_resmi_dibuka_besok_ada_sop_baru_2025-08-10_11-59-38_5030.webp" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-8 flex flex-col justify-end text-white">
+                    <h3 class="text-2xl font-bold mb-2">mount rinjani</h3>
+                    <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transition duration-500">keindahan puncak rinjani.</p>
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl h-[450px] shadow-2xl">
+                <img src="c:\Users\HP\Pictures\Ani\IMG-20240907-WA0076.jpg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-8 flex flex-col justify-end text-white">
+                    <h3 class="text-2xl font-bold mb-2">Kebun Stroberi</h3>
+                    <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transition duration-500">Petik buah segar langsung dari perkebunan warga lokal.</p>
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-3xl h-[450px] shadow-2xl">
+                <img src="c:\Users\HP\Downloads\WhatsApp Image 2026-01-12 at 07.10.03.jpeg" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-8 flex flex-col justify-end text-white">
+                    <h3 class="text-2xl font-bold mb-2">anak dara</h3>
+                    <p class="text-sm text-gray-300 opacity-0 group-hover:opacity-100 transition duration-500">nikmati pemandangan pegunungan anak dara yang begitu indah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="harga" class="py-24 bg-green-900 text-white px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold mb-16">Pilihan Paket Wisata</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white/10 p-10 rounded-3xl border border-white/20 hover:bg-white/20 transition">
+                    <h3 class="text-xl font-bold mb-4 uppercase tracking-widest">Day Tour</h3>
+                    <div class="text-4xl font-black mb-6">Rp 350k<span class="text-sm font-normal text-gray-300">/pax</span></div>
+                    <ul class="text-left space-y-4 mb-10 text-gray-200">
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> Transportasi PP</li>
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> Tiket Bukit anak dara</li>
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> tour guide</li>
+                    </ul>
+                    <a href="#booking" class="block bg-white text-green-900 font-bold py-3 rounded-lg">Pilih Paket</a>
+                </div>
+                <div class="bg-orange-500 p-10 rounded-3xl transform scale-105 shadow-2xl shadow-orange-500/20">
+                    <h3 class="text-xl font-bold mb-4 uppercase tracking-widest">Camping 2D1N</h3>
+                    <div class="text-4xl font-black mb-6">Rp 850k<span class="text-sm font-normal text-white/80">/pax</span></div>
+                    <ul class="text-left space-y-4 mb-10">
+                        <li><i class="fas fa-check-circle mr-2"></i> Perlengkapan Camping</li>
+                        <li><i class="fas fa-check-circle mr-2"></i> Makan 3x Sehari</li>
+                        <li><i class="fas fa-check-circle mr-2"></i> Dokumentasi</li>
+                        <li><i class="fas fa-check-circle mr-2"></i> Porter & Guide</li>
+                    </ul>
+                    <a href="#booking" class="block bg-green-900 text-white font-bold py-3 rounded-lg">Paling Populer</a>
+                </div>
+                <div class="bg-white/10 p-10 rounded-3xl border border-white/20 hover:bg-white/20 transition">
+                    <h3 class="text-xl font-bold mb-4 uppercase tracking-widest">Hiking Rinjani</h3>
+                    <div class="text-4xl font-black mb-6">Rp 1.8M<span class="text-sm font-normal text-gray-300">/pax</span></div>
+                    <ul class="text-left space-y-4 mb-10 text-gray-200">
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> Paket 3 Hari 2 Malam</li>
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> Tiket TNGR Rinjani</li>
+                        <li><i class="fas fa-check-circle text-orange-400 mr-2"></i> Full Equipment</li>
+                    </ul>
+                    <a href="#booking" class="block bg-white text-green-900 font-bold py-3 rounded-lg">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-24 px-6">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row shadow-2xl rounded-[40px] overflow-hidden">
+            <div class="md:w-1/2 bg-white p-12">
+                <h2 class="text-3xl font-black mb-6">Mulai Petualanganmu!</h2>
+                <form id="waForm" class="space-y-4">
+                    <input type="text" id="nama" placeholder="Nama Lengkap" required class="w-full p-4 bg-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-green-600 transition">
+                    <input type="date" id="tanggal" required class="w-full p-4 bg-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-green-600 transition">
+                    <select id="paket" class="w-full p-4 bg-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-green-600 transition">
+                        <option>Day Tour Sembalun</option>
+                        <option>Camping 2D1N</option>
+                        <option>Hiking Rinjani</option>
+                    </select>
+                    <textarea id="pesan" rows="4" placeholder="Pesan atau permintaan khusus..." class="w-full p-4 bg-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+                    <button type="submit" class="w-full bg-green-600 text-white font-bold py-5 rounded-2xl hover:bg-green-700 transition shadow-xl uppercase tracking-widest">Kirim via WhatsApp</button>
+                </form>
+            </div>
+            <div class="md:w-1/2 bg-green-800 text-white p-12 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Informasi Kontak</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-green-700 flex items-center justify-center rounded-xl"><i class="fab fa-whatsapp text-2xl"></i></div>
+                            <div><p class="text-xs text-green-300">WhatsApp</p><p class="font-bold">+62 831 6654 6119</p></div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-green-700 flex items-center justify-center rounded-xl"><i class="far fa-envelope text-2xl"></i></div>
+                            <div><p class="text-xs text-green-300">Email</p><p class="font-bold">halo@sembalun.com</p></div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-green-700 flex items-center justify-center rounded-xl"><i class="fas fa-map-marker-alt text-2xl"></i></div>
+                            <div><p class="text-xs text-green-300">Lokasi</p><p class="font-bold">Sembalun, Lombok Timur, NTB</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 p-6 bg-white/10 rounded-3xl border border-white/10">
+                    <p class="text-sm italic font-light">"Jangan ambil apapun kecuali gambar, jangan tinggalkan apapun kecuali jejak kaki."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-12 text-center border-t border-gray-100">
+        <p class="text-gray-400 text-sm tracking-widest uppercase">© 2026 Wonderful Sembalun Adventure • Lombok Indonesia</p>
+    </footer>
+
+    <script>
+        document.getElementById('waForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nomorWA = "6283166546119"; // GANTI DENGAN NOMOR WA ANDA
+            
+            const nama = document.getElementById('nama').value;
+            const tanggal = document.getElementById('tanggal').value;
+            const paket = document.getElementById('paket').value;
+            const pesan = document.getElementById('pesan').value;
+
+            const text = `*FORM RESERVASI SEMBALUN*%0A%0A` +
+                         `*Nama:* ${nama}%0A` +
+                         `*Tanggal:* ${tanggal}%0A` +
+                         `*Paket:* ${paket}%0A` +
+                         `*Pesan:* ${pesan}`;
+            
+            window.open(`https://wa.me/${nomorWA}?text=${text}`, '_blank');
+        });
+    </script>
+</body>
+</html>
